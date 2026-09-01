@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="icon" sizes="32x32" href="images/favicon-32x32.png">
+    <title>NFT Card Component</title>
+</head>
+<body class="bg-primary w-full h-screen flex items-center justify-center px-8">
+    <div class="bg-secondary p-8 flex flex-col shrink-1 justify-center gap-5 rounded-2xl min-h-3/4 w-[480px]">
+        <div class="relative">
+            <img src="images/image-equilibrium.jpg" alt="Equilibrium cube" class="rounded-2xl">
+
+            <div class="bg-accent-transparent absolute inset-0 h-full w-full opacity-0 hover:opacity-100 transition-opacity duration-300 cursor-pointer">
+                <img src="images/icon-view.svg" alt="icon-view" class="absolute inset-0 place-self-center">
+            </div>
+        </div>
+        <div class="flex flex-col justify-center gap-5">
+            <h1 class="text-white text-2xl font-bold hover:text-accent cursor-pointer">Equilibrium #3429</h1>
+            <p class="text-body text-lg">Our Equilibrium collection promotes balance and calm.</p>
+            <div class="flex items-center justify-between border-b pb-5 border-b-white">
+                <div class="flex gap-3">
+                    <img src="images/icon-ethereum.svg" alt="icon-ethereum">
+                    <span class="text-accent font-bold text-lg">0.041 ETH</span>
+                </div>
+
+                <div class="flex gap-3">
+                    <img src="images/icon-clock.svg" alt="icon-clock">
+                    <span class="text-body font-bold text-lg">3 days left</span>
+                </div>
+            </div>
+
+            <div class="flex items-center gap-8">
+                <img src="images/image-avatar.png" alt="image-avatar" class="w-10 outline outline-white outline-2 rounded-full">
+                <p class="text-body text-lg">Creation of <span class="text-white font-bold hover:text-accent cursor-pointer">Jules Wyvern</span></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
